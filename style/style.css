@@ -332,6 +332,7 @@ main {
     }
   /* bottom footer */
     .second-footer{
+     
         padding: 40px 15px;
         text-align: center;
     }
@@ -346,4 +347,40 @@ main {
         margin-right: 12px;
         font-size: 1.5rem;
     }
+}
+@media screen and (min-width:576px) and (max-width:992px){
+              .first-footer{
+                justify-items: center;
+                width:50%;
+                margin-left: 30px;
+                gap: 40px;
+
+              }
+              .popular-card-title{
+                margin: 10px;
+              }
+              header{
+                margin: 10px;
+              }
+              .banner-content p{
+              max-width: 300px;
+              }
+              #pree-btn{
+                margin-top: 5px;
+              }
+              .camera-image{
+              width: 50%;
+              }
+              #see-more{
+                background-color: white;
+                margin-top: 10px;
+                color: #E02C6D;
+              }
+              .footer-p{
+                width: 400px;
+              }
+              .footer-title{
+                width:100% ;
+                /* height: ; */
+              }
 }
