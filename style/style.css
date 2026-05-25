@@ -361,11 +361,16 @@ cursor: pointer;
 }
 @media screen and (min-width:576px) and (max-width:992px){
               .first-footer{
+                margin-top: 40px;
                 
-                justify-items: center;
+                flex-direction: column-reverse;
+                max-width: 450px;
+                /* align-items: center; */
                 /* width:50%; */
-                margin-left: 30px;
-                gap: 40px;
+                /* justify-content: center; */
+                text-align: center;
+                margin-left: 230px;
+                gap: 20px;
 
               }
               .popular-card-title{
@@ -389,7 +394,7 @@ cursor: pointer;
                 color: #E02C6D;
               }
               .footer-p{
-                max-width: 400px;
+                max-width: 450px;
               }
               .footer-title{
                 /* max-width: 150px ; */
