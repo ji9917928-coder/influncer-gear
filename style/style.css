@@ -361,8 +361,9 @@ cursor: pointer;
 }
 @media screen and (min-width:576px) and (max-width:992px){
               .first-footer{
+                
                 justify-items: center;
-                width:50%;
+                /* width:50%; */
                 margin-left: 30px;
                 gap: 40px;
 
@@ -388,10 +389,10 @@ cursor: pointer;
                 color: #E02C6D;
               }
               .footer-p{
-                width: 400px;
+                max-width: 400px;
               }
               .footer-title{
-                width:100% ;
+                /* max-width: 150px ; */
                 /* height: ; */
               }
 }
